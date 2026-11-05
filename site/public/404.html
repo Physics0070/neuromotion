@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="/theme.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#0a0b0f" />
+    <title>Off the arc | NeuroMotion</title>
+    <style>
+      :root { color-scheme: dark; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #0a0b0f; color: #ece8df;
+        font: 400 18px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif;
+      }
+      main { width: min(34rem, 100%); }
+      .skip { position: fixed; left: 12px; top: -60px; padding: 10px 14px; background: #ece8df; color: #0a0b0f; font: 500 14px ui-monospace, Consolas, monospace; text-decoration: none; }
+      .skip:focus { top: 12px; }
+      .num { margin: 0; font: 500 clamp(96px, 28vw, 200px) / 0.85 ui-monospace, Consolas, monospace; color: #f2a33a; letter-spacing: -0.05em; }
+      h1 { margin: 20px 0 10px; font-size: clamp(26px, 6vw, 40px); line-height: 1.05; letter-spacing: -0.03em; }
+      p { margin: 0 0 22px; color: #cfcbc2; }
+      a {
+        display: inline-block; padding: 12px 18px; border: 1px solid #f2a33a; border-radius: 3px; color: #ece8df; text-decoration: none;
+        font: 500 13px/1 ui-monospace, Consolas, monospace; letter-spacing: 0.06em; text-transform: uppercase;
+        transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), background 0.25s, color 0.25s;
+      }
+      a:hover { transform: translateY(-3px); background: #f2a33a; color: #0a0b0f; }
+      a:active { transform: translateY(0) scale(0.97); }
+      a:focus-visible { outline: 2px solid #f2a33a; outline-offset: 3px; }
+    </style>
+      <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+  </head>
+  <body>
+    <a class="skip" href="#back">Skip to the link home</a>
+    <main>
+      <p class="num" aria-hidden="true">404</p>
+      <h1>This page is not on the arc.</h1>
+      <p>Nothing here to measure. The story starts at zero degrees.</p>
+      <a id="back" href="/">Back to the start</a>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "operator": "",
+  "contactEmail": "",
+  "clinical": { "reviewer": "", "registration": "", "date": "" },
+  "translations": {
+    "hi": { "reviewer": "", "date": "" },
+    "mr": { "reviewer": "", "date": "" }
+  },
+  "legal": { "reviewer": "", "date": "" },
+  "validation": { "n": 0, "maeDeg": null, "date": "", "method": "" }
+}

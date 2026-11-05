@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+models/
+node_modules/
+dist/
+dist-ssr/
+site/data/
+site/.jury/
+site/.shots*/
+*.db
+.env
+.DS_Store
